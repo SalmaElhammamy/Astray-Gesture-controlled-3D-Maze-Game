@@ -11,7 +11,7 @@ from xgboost import XGBClassifier
 from sklearn.ensemble import RandomForestClassifier
 
 ### Load data 
-df = pd.read_csv("hand_landmarks_data.csv")  
+df = pd.read_csv("data/hand_landmarks_data.csv")  
 
 # --- 1. Normalization ---
 landmark_columns = [f"{axis}{i}" for i in range(1, 22) for axis in ['x', 'y', 'z']]

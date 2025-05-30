@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/ITI/Core%20Courses/MLOPs/Final-Project/Astray-Gesture-controlled-3D-Maze-Game/mlruns/973299909932321580/843695795e364ff59c2e3837e0cc0ab7/artifacts
+end_time: 1748597121042
+entry_point_name: ''
+experiment_id: '973299909932321580'
+lifecycle_stage: active
+run_id: 843695795e364ff59c2e3837e0cc0ab7
+run_name: XGBoost
+run_uuid: 843695795e364ff59c2e3837e0cc0ab7
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1748597075158
+status: 3
+tags: []
+user_id: salma
