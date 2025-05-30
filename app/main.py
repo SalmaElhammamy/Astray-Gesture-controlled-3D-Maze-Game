@@ -1,8 +1,13 @@
 from fastapi import FastAPI
 from app.schemas import LandmarkInput
-from app.model import predict
+from app.model import GestureModel
 
 app = FastAPI()
+
+model = GestureModel(
+    model_path="models/model.pkl",
+    encoder_path="models/label_encoder.pkl"
+)
 
 @app.get("/")
 def read_root():
@@ -10,5 +15,5 @@ def read_root():
 
 @app.post("/predict")
 def predict_gesture(data: LandmarkInput):
-    label = predict(data.landmarks)
+    label = model.predict(data.landmarks)
     return {"prediction": label}
