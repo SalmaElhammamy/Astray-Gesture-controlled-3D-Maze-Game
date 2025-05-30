@@ -33,6 +33,28 @@ Once it starts, visit:
 - **Swagger UI (for testing)**: [http://127.0.0.1:8000/docs](http://127.0.0.1:8000/docs)  
 - **FastAPI root**: [http://127.0.0.1:8000](http://127.0.0.1:8000)
 
+  ---
+
+## 🐳 Containerization with Docker
+
+To run the API in a container, you can build and run the Docker image:
+
+### Build the Docker image
+
+```bash
+docker build -t gesture-api .
+```
+
+### Build the Docker image
+
+```bash
+docker run -p 8000:8000 gesture-api
+```
+This will start the API inside a Docker container, accessible at:
+
+- **Swagger UI (for testing)**: [http://localhost:8000/docs](http://localhost:8000/docs)  
+- **FastAPI root**: [http://localhost:8000](http://localhost:8000)
+
 
 
 
