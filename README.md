@@ -33,6 +33,9 @@ Once it starts, visit:
 - **Swagger UI (for testing)**: [http://127.0.0.1:8000/docs](http://127.0.0.1:8000/docs)  
 - **FastAPI root**: [http://127.0.0.1:8000](http://127.0.0.1:8000)
 
+  
+<img width="958" alt="API" src="https://github.com/user-attachments/assets/33acb1b6-1100-4fb8-8e90-868ecaa9945f" />
+
   ---
 
 ## 🐳 Containerization with Docker
@@ -57,7 +60,6 @@ This will start the API inside a Docker container, accessible at:
 
 
 
+<img width="748" alt="docker_2" src="https://github.com/user-attachments/assets/7897eb62-fa2d-48b2-ab06-a03473921456" />
 
-
-<img width="958" alt="API" src="https://github.com/user-attachments/assets/33acb1b6-1100-4fb8-8e90-868ecaa9945f" />
-
+<img width="946" alt="docker_1" src="https://github.com/user-attachments/assets/cc53d6cd-c525-4954-80b8-e9a67fbc29c3" />
