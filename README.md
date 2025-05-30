@@ -63,3 +63,21 @@ This will start the API inside a Docker container, accessible at:
 <img width="748" alt="docker_2" src="https://github.com/user-attachments/assets/7897eb62-fa2d-48b2-ab06-a03473921456" />
 
 <img width="946" alt="docker_1" src="https://github.com/user-attachments/assets/cc53d6cd-c525-4954-80b8-e9a67fbc29c3" />
+
+---
+
+## 📊 Monitoring Metrics
+
+To maintain a reliable and robust API, we monitor key metrics from three areas:
+
+### Model-related Metric: Prediction Accuracy / Confidence Score
+We track the model’s prediction confidence to detect potential model degradation or drift over time, ensuring the gesture recognition remains accurate.
+
+### Data-related Metric: Input Data Distribution / Landmark Validity Rate
+Monitoring the validity and distribution of input landmark data helps us catch anomalies in the input, such as missing or corrupted data, which could affect predictions.
+
+### Server-related Metric: API Request Latency
+Tracking the response time of the API allows us to ensure timely responses for users and quickly identify performance bottlenecks or infrastructure issues.
+
+---
+
