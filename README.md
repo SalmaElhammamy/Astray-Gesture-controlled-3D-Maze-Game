@@ -4,6 +4,12 @@ A FastAPI-based web service for serving the trained hand gesture recognition mod
 
 ---
 
+## 🧪 Testing
+
+- Backend tested using Pytest & FastAPI's TestClient
+- Input validation using Pydantic
+
+---
 ## 📦 Features
 
 - 🔮 Predict gestures using a pre-trained XGBoost model  
