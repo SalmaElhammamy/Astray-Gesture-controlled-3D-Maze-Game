@@ -68,8 +68,6 @@ This will start the API inside a Docker container, accessible at:
 
 <img width="748" alt="docker_2" src="https://github.com/user-attachments/assets/7897eb62-fa2d-48b2-ab06-a03473921456" />
 
-<img width="946" alt="docker_1" src="https://github.com/user-attachments/assets/cc53d6cd-c525-4954-80b8-e9a67fbc29c3" />
-
 ---
 
 ## 📊 Monitoring Metrics
