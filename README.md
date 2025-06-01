@@ -37,6 +37,14 @@ Once it starts, visit:
 
 ---
 
+## 🌐 Live Deployment
+This API is also deployed live using **ClawCloud**. You can access the online API here:
+
+- **Live Swagger Docs**: https://idmiunzktedg.us-east-1.clawcloudrun.com/docs  
+- **Live Base URL**: https://idmiunzktedg.us-east-1.clawcloudrun.com
+
+---
+
 ## 🐳 Containerization with Docker
 
 To run the API in a container, you can build and run the Docker image:
