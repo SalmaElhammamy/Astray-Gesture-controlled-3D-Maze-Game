@@ -31,7 +31,9 @@ class GestureModel:
         if self.encoder:
             prediction = self.encoder.inverse_transform([prediction])[0]
 
-        # Map gesture to direction
+        # Map gesture to direction; return None if not found
         direction = self.direction_map.get(prediction, 'unknown')
 
         return direction
+
+
